@@ -1,0 +1,95 @@
+Node and Express
+-------------------
+Mvc Architecture:-
+it is the Architecture of the creating Fullstack development Application
+user:-User intrecting with view 
+view:-controller:-modal:-database
+
+m - modal- {Servser side}-modal represents the strcture in which the store
+eg:-react-anguler
+c - controller-{server side}use to set the logic to resolve request 
+v - view - User interface - where the user intract with  the application {frond-end}
+
+
+routing:-
+----------
+ To set the path to resolve the requests
+
+ Database:-
+  where the data base is stored
+
+
+  Node:-
+  ------
+  -node a programing language to provide to run the java script outside the browser 
+  -v8 java script engine
+  -it provided by google
+  javascript liberies
+  -extention might be.javascript
+
+  installtion
+  -------------
+  features:-
+  
+  modules:-
+  modules are files.javascriptliberires that are based application to provide certain functionalitites
+  -if we to include modules need to import that modules
+  -require () is used to import the modules
+
+  Basically they are two types of modules 
+  1)custom modules
+  2)built-in modules:-pre-defined modules
+  -file system modules-allow to work with the file inside the system
+  Operations:-
+  -read file - readfile()
+ - write file -writefile()
+  -update file -writefile()
+  -delete file -unlink()
+  -rename file - rename()
+
+  HTTP modules:-
+  --------------
+  used to create a http module can listen to a server port and gives a respose back to aclient
+  -handle http request
+
+  1)create - createServer()
+  2)listen - listen()
+
+
+Events Modules
+
+to create events with the help of EventEmmiter class
+-on() - to create events
+-emit() - to invoke the events
+
+
+environment variables:-
+
+this are pre determine values that are typically used to provide the ability to configure a value in your code from outside of the application
+
+Express:-
+----------
+-A framework of node js
+
+steps to set up a server using Express
+-create a folder the server
+-cretae package.json - npm init -y 
+-install pakeges - Express ,dotev,cors,mangoose
+
+express - npm i express
+dotenv -npm i dotenv
+cors - npm i cors
+mangoose - npm i mangooseresource sharing
+
+
+Cross origin resource sharing
+-to connect frondend with the server to enable communication
+
+dontenv:-
+-to load environment variables
+
+mongoose
+used to connect server with the the database
+-connnect()
+
+
